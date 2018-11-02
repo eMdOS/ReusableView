@@ -1,5 +1,5 @@
-import Foundation
-import ReusableView
+import UIKit
+import ReusableViewKit
 
 class TestReusableView: UITableViewCell {
     // empty

@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 public final class TableViewCellFactory<Model, Cell: UITableViewCell> {
     public let create: (Model, IndexPath, UITableView) -> Cell

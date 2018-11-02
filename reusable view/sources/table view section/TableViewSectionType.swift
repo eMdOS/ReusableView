@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 public protocol TableViewSectionType {
     var numberOfRows: Int { get }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF265A97218BD8A100DB5F5C"
-               BuildableName = "ReusableView.framework"
-               BlueprintName = "ReusableView"
-               ReferencedContainer = "container:ReusableView.xcodeproj">
+               BuildableName = "ReusableViewKit.framework"
+               BlueprintName = "ReusableViewKit"
+               ReferencedContainer = "container:ReusableViewKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF265A97218BD8A100DB5F5C"
-            BuildableName = "ReusableView.framework"
-            BlueprintName = "ReusableView"
-            ReferencedContainer = "container:ReusableView.xcodeproj">
+            BuildableName = "ReusableViewKit.framework"
+            BlueprintName = "ReusableViewKit"
+            ReferencedContainer = "container:ReusableViewKit.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF265AA0218BD8A100DB5F5C"
-               BuildableName = "ReusableViewTests.xctest"
-               BlueprintName = "ReusableViewTests"
-               ReferencedContainer = "container:ReusableView.xcodeproj">
+               BuildableName = "ReusableViewKitTests.xctest"
+               BlueprintName = "ReusableViewKitTests"
+               ReferencedContainer = "container:ReusableViewKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF265A97218BD8A100DB5F5C"
-            BuildableName = "ReusableView.framework"
-            BlueprintName = "ReusableView"
-            ReferencedContainer = "container:ReusableView.xcodeproj">
+            BuildableName = "ReusableViewKit.framework"
+            BlueprintName = "ReusableViewKit"
+            ReferencedContainer = "container:ReusableViewKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF265A97218BD8A100DB5F5C"
-            BuildableName = "ReusableView.framework"
-            BlueprintName = "ReusableView"
-            ReferencedContainer = "container:ReusableView.xcodeproj">
+            BuildableName = "ReusableViewKit.framework"
+            BlueprintName = "ReusableViewKit"
+            ReferencedContainer = "container:ReusableViewKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF265A97218BD8A100DB5F5C"
-            BuildableName = "ReusableView.framework"
-            BlueprintName = "ReusableView"
-            ReferencedContainer = "container:ReusableView.xcodeproj">
+            BuildableName = "ReusableViewKit.framework"
+            BlueprintName = "ReusableViewKit"
+            ReferencedContainer = "container:ReusableViewKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

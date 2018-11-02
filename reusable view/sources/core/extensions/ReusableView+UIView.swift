@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 extension ReusableView where Self: UIView {
     public static var reusableIdentifier: String {

@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 open class TableViewSection<Model, Cell: UITableViewCell> {
     private(set) var items: [Model]

@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 extension NibLoadableView where Self: UIView {
     public static var nibName: String {

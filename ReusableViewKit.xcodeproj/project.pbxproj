@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF265AA2218BD8A100DB5F5C /* ReusableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF265A98218BD8A100DB5F5C /* ReusableView.framework */; };
+		AF265AA2218BD8A100DB5F5C /* ReusableViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */; };
 		AF265AA9218BD8A100DB5F5C /* ReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF265A9B218BD8A100DB5F5C /* ReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */; };
 		AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */; };
 		AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */; };
 		AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */; };
-		AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
 		AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */; };
 		AF265AC4218BDE0800DB5F5C /* TableViewSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC3218BDE0800DB5F5C /* TableViewSectionType.swift */; };
 		AF265AC6218BDE2700DB5F5C /* TableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC5218BDE2700DB5F5C /* TableViewSection.swift */; };
@@ -22,6 +21,7 @@
 		AF265AD7218BE60600DB5F5C /* TestReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD2218BE56F00DB5F5C /* TestReusableView.swift */; };
 		AF265AD9218BE64F00DB5F5C /* NibLoadableView+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD8218BE64F00DB5F5C /* NibLoadableView+Test.swift */; };
 		AF265B04218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */; };
+		AF265B12218C018700DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF265A98218BD8A100DB5F5C /* ReusableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF265A9B218BD8A100DB5F5C /* ReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
 		AF265A9C218BD8A100DB5F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF265AA1218BD8A100DB5F5C /* ReusableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF265AA1218BD8A100DB5F5C /* ReusableViewKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableViewKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF265AA8218BD8A100DB5F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF265AA2218BD8A100DB5F5C /* ReusableView.framework in Frameworks */,
+				AF265AA2218BD8A100DB5F5C /* ReusableViewKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +86,8 @@
 		AF265A99218BD8A100DB5F5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF265A98218BD8A100DB5F5C /* ReusableView.framework */,
-				AF265AA1218BD8A100DB5F5C /* ReusableViewTests.xctest */,
+				AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */,
+				AF265AA1218BD8A100DB5F5C /* ReusableViewKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF265A97218BD8A100DB5F5C /* ReusableView */ = {
+		AF265A97218BD8A100DB5F5C /* ReusableViewKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF265AAC218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableView" */;
+			buildConfigurationList = AF265AAC218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewKit" */;
 			buildPhases = (
 				AF265A93218BD8A100DB5F5C /* Headers */,
 				AF265A94218BD8A100DB5F5C /* Sources */,
@@ -205,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = ReusableView;
+			name = ReusableViewKit;
 			productName = ReusableView;
-			productReference = AF265A98218BD8A100DB5F5C /* ReusableView.framework */;
+			productReference = AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF265AA0218BD8A100DB5F5C /* ReusableViewTests */ = {
+		AF265AA0218BD8A100DB5F5C /* ReusableViewKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF265AAF218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewTests" */;
+			buildConfigurationList = AF265AAF218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewKitTests" */;
 			buildPhases = (
 				AF265A9D218BD8A100DB5F5C /* Sources */,
 				AF265A9E218BD8A100DB5F5C /* Frameworks */,
@@ -223,9 +223,9 @@
 			dependencies = (
 				AF265AA4218BD8A100DB5F5C /* PBXTargetDependency */,
 			);
-			name = ReusableViewTests;
+			name = ReusableViewKitTests;
 			productName = ReusableViewTests;
-			productReference = AF265AA1218BD8A100DB5F5C /* ReusableViewTests.xctest */;
+			productReference = AF265AA1218BD8A100DB5F5C /* ReusableViewKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF265A92218BD8A100DB5F5C /* Build configuration list for PBXProject "ReusableView" */;
+			buildConfigurationList = AF265A92218BD8A100DB5F5C /* Build configuration list for PBXProject "ReusableViewKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF265A97218BD8A100DB5F5C /* ReusableView */,
-				AF265AA0218BD8A100DB5F5C /* ReusableViewTests */,
+				AF265A97218BD8A100DB5F5C /* ReusableViewKit */,
+				AF265AA0218BD8A100DB5F5C /* ReusableViewKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,8 +292,8 @@
 				AF265AC6218BDE2700DB5F5C /* TableViewSection.swift in Sources */,
 				AF265AC4218BDE0800DB5F5C /* TableViewSectionType.swift in Sources */,
 				AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */,
+				AF265B12218C018700DB5F5C /* UITableView.swift in Sources */,
 				AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */,
-				AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */,
 				AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */,
 				AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */,
 			);
@@ -315,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		AF265AA4218BD8A100DB5F5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF265A97218BD8A100DB5F5C /* ReusableView */;
+			target = AF265A97218BD8A100DB5F5C /* ReusableViewKit */;
 			targetProxy = AF265AA3218BD8A100DB5F5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -537,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF265A92218BD8A100DB5F5C /* Build configuration list for PBXProject "ReusableView" */ = {
+		AF265A92218BD8A100DB5F5C /* Build configuration list for PBXProject "ReusableViewKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF265AAA218BD8A100DB5F5C /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF265AAC218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableView" */ = {
+		AF265AAC218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF265AAD218BD8A100DB5F5C /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF265AAF218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewTests" */ = {
+		AF265AAF218BD8A100DB5F5C /* Build configuration list for PBXNativeTarget "ReusableViewKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF265AB0218BD8A100DB5F5C /* Debug */,
