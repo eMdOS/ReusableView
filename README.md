@@ -1,5 +1,21 @@
 # ReusableViewKit
 
+## Installation
+
+### CocoaPods
+
+#### Core
+
+```
+pod 'ReusableViewKit', '~>1.0.0'
+```
+
+#### TableViewSection
+
+```
+pod 'ReusableViewKit/TableViewSection', '~>1.0.0'
+```
+
 ## Usage
 
 ### ReusableViewKit/Core
