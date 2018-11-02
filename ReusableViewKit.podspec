@@ -12,11 +12,12 @@ Pod::Spec.new do |spec|
   spec.authors = { 'eMdOS' => 'emilio.ojeda.mendoza@gmail.com' }
   spec.summary = 'A useful framework with extensions and utilities for making development easier.'
 
-  spec.source = { :git => 'https://github.com/eMdOS/ReusableViewKit.git', :tag => "v#{spec.version}" }
+  spec.source = { :git => 'https://github.com/eMdOS/ReusableViewKit.git', :tag => "#{spec.version}" }
 
   spec.frameworks = 'UIKit', 'Foundation'
 
   spec.default_subspec = 'Core'
+  spec.source_files = 'framework/ReusableViewKit.h'
 
   spec.subspec 'Core' do |core|
     core.source_files = 'framework/sources/core/**/*.{swift}'
