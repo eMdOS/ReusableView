@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AF265AA2218BD8A100DB5F5C /* ReusableViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */; };
-		AF265AA9218BD8A100DB5F5C /* ReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF265A9B218BD8A100DB5F5C /* ReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */; };
 		AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */; };
 		AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */; };
@@ -22,6 +21,7 @@
 		AF265AD9218BE64F00DB5F5C /* NibLoadableView+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD8218BE64F00DB5F5C /* NibLoadableView+Test.swift */; };
 		AF265B04218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */; };
 		AF265B12218C018700DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
+		AFB1CE10218C12F60019D4CB /* ReusableViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF265A9B218BD8A100DB5F5C /* ReusableViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		AF265A98218BD8A100DB5F5C /* ReusableViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF265A9B218BD8A100DB5F5C /* ReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
+		AF265A9B218BD8A100DB5F5C /* ReusableViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReusableViewKit.h; sourceTree = "<group>"; };
 		AF265A9C218BD8A100DB5F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF265AA1218BD8A100DB5F5C /* ReusableViewKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableViewKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF265AA8218BD8A100DB5F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AF265A9C218BD8A100DB5F5C /* Info.plist */,
-				AF265A9B218BD8A100DB5F5C /* ReusableView.h */,
+				AF265A9B218BD8A100DB5F5C /* ReusableViewKit.h */,
 				AF265AB2218BD9DB00DB5F5C /* sources */,
 			);
 			path = framework;
@@ -177,7 +177,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF265AA9218BD8A100DB5F5C /* ReusableView.h in Headers */,
+				AFB1CE10218C12F60019D4CB /* ReusableViewKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
