@@ -10,6 +10,10 @@
 		AF265AA2218BD8A100DB5F5C /* ReusableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF265A98218BD8A100DB5F5C /* ReusableView.framework */; };
 		AF265AA7218BD8A100DB5F5C /* ReusableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AA6218BD8A100DB5F5C /* ReusableViewTests.swift */; };
 		AF265AA9218BD8A100DB5F5C /* ReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF265A9B218BD8A100DB5F5C /* ReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */; };
+		AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */; };
+		AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */; };
+		AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		AF265AA1218BD8A100DB5F5C /* ReusableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF265AA6218BD8A100DB5F5C /* ReusableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewTests.swift; sourceTree = "<group>"; };
 		AF265AA8218BD8A100DB5F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+UIView.swift"; sourceTree = "<group>"; };
+		AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 			children = (
 				AF265A9C218BD8A100DB5F5C /* Info.plist */,
 				AF265A9B218BD8A100DB5F5C /* ReusableView.h */,
+				AF265AB2218BD9DB00DB5F5C /* sources */,
 			);
 			path = "reusable view";
 			sourceTree = "<group>";
@@ -84,6 +93,33 @@
 				AF265AA6218BD8A100DB5F5C /* ReusableViewTests.swift */,
 			);
 			path = "unit test";
+			sourceTree = "<group>";
+		};
+		AF265AB2218BD9DB00DB5F5C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				AF265ABC218BDB4600DB5F5C /* core */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		AF265ABB218BDB1000DB5F5C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */,
+				AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AF265ABC218BDB4600DB5F5C /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */,
+				AF265AB3218BDA2B00DB5F5C /* ReusableView.swift */,
+				AF265ABB218BDB1000DB5F5C /* extensions */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +184,7 @@
 				TargetAttributes = {
 					AF265A97218BD8A100DB5F5C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					AF265AA0218BD8A100DB5F5C = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */,
+				AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */,
+				AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */,
+				AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +382,7 @@
 		AF265AAD218BD8A100DB5F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.emdos.sdk.reusable-view";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +409,7 @@
 		AF265AAE218BD8A100DB5F5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +435,7 @@
 		AF265AB0218BD8A100DB5F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73UG84RVVP;
 				INFOPLIST_FILE = "unit test/Info.plist";
@@ -409,6 +454,7 @@
 		AF265AB1218BD8A100DB5F5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73UG84RVVP;
 				INFOPLIST_FILE = "unit test/Info.plist";
