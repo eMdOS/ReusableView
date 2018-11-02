@@ -14,6 +14,7 @@
 		AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */; };
 		AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */; };
 		AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */; };
+		AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		AF265AB5218BDA5B00DB5F5C /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+UIView.swift"; sourceTree = "<group>"; };
 		AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+UIView.swift"; sourceTree = "<group>"; };
+		AF265ABE218BDBC600DB5F5C /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				AF265ABC218BDB4600DB5F5C /* core */,
+				AF265ABD218BDBB100DB5F5C /* table view */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -120,6 +123,14 @@
 				AF265ABB218BDB1000DB5F5C /* extensions */,
 			);
 			path = core;
+			sourceTree = "<group>";
+		};
+		AF265ABD218BDBB100DB5F5C /* table view */ = {
+			isa = PBXGroup;
+			children = (
+				AF265ABE218BDBC600DB5F5C /* UITableView.swift */,
+			);
+			path = "table view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */,
 				AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */,
+				AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */,
 				AF265AB4218BDA2B00DB5F5C /* ReusableView.swift in Sources */,
 				AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */,
 			);
