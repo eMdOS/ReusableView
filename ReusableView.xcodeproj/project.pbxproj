@@ -21,6 +21,7 @@
 		AF265AD6218BE60200DB5F5C /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD0218BE00100DB5F5C /* TestModel.swift */; };
 		AF265AD7218BE60600DB5F5C /* TestReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD2218BE56F00DB5F5C /* TestReusableView.swift */; };
 		AF265AD9218BE64F00DB5F5C /* NibLoadableView+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AD8218BE64F00DB5F5C /* NibLoadableView+Test.swift */; };
+		AF265B04218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AF265AD2218BE56F00DB5F5C /* TestReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReusableView.swift; sourceTree = "<group>"; };
 		AF265AD4218BE5C700DB5F5C /* ReusableView+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+Test.swift"; sourceTree = "<group>"; };
 		AF265AD8218BE64F00DB5F5C /* NibLoadableView+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+Test.swift"; sourceTree = "<group>"; };
+		AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */,
+				AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */,
 				AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */,
 			);
 			path = extensions;
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF265B04218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift in Sources */,
 				AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */,
 				AF265AC6218BDE2700DB5F5C /* TableViewSection.swift in Sources */,
 				AF265AC4218BDE0800DB5F5C /* TableViewSectionType.swift in Sources */,
