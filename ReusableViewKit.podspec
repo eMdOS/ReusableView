@@ -13,10 +13,17 @@ Pod::Spec.new do |spec|
   spec.summary = 'A useful framework with extensions and utilities for making development easier.'
 
   spec.source = { :git => 'https://github.com/eMdOS/ReusableViewKit.git', :tag => "v#{spec.version}" }
-  spec.source_files = 'reusable view/sources/core/**/*.{swift}', 'reusable view/sources/table view/*.{swift}'
+
+  spec.frameworks = 'UIKit', 'Foundation'
+
+  spec.default_subspec = 'Core'
+
+  spec.subspec 'Core' do |core|
+    core.source_files = 'framework/sources/core/**/*.{swift}'
+  end
 
   spec.subspec 'TableViewSection' do |tableViewSection|
-  	tableViewSection.source_files = 'reusable view/sources/table view section/*.{swift}'
+  	tableViewSection.source_files = 'framework/sources/table view section/*.{swift}'
   end
 
 end

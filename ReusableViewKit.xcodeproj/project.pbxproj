@@ -77,7 +77,7 @@
 		AF265A8E218BD8A100DB5F5C = {
 			isa = PBXGroup;
 			children = (
-				AF265A9A218BD8A100DB5F5C /* reusable view */,
+				AF265A9A218BD8A100DB5F5C /* framework */,
 				AF265AA5218BD8A100DB5F5C /* unit test */,
 				AF265A99218BD8A100DB5F5C /* Products */,
 			);
@@ -92,14 +92,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF265A9A218BD8A100DB5F5C /* reusable view */ = {
+		AF265A9A218BD8A100DB5F5C /* framework */ = {
 			isa = PBXGroup;
 			children = (
 				AF265A9C218BD8A100DB5F5C /* Info.plist */,
 				AF265A9B218BD8A100DB5F5C /* ReusableView.h */,
 				AF265AB2218BD9DB00DB5F5C /* sources */,
 			);
-			path = "reusable view";
+			path = framework;
 			sourceTree = "<group>";
 		};
 		AF265AA5218BD8A100DB5F5C /* unit test */ = {
@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				AF265ABC218BDB4600DB5F5C /* core */,
-				AF265ABD218BDBB100DB5F5C /* table view */,
 				AF265AC0218BDCF200DB5F5C /* table view section */,
 			);
 			path = sources;
@@ -128,6 +127,7 @@
 				AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */,
 				AF265B03218BEC2600DB5F5C /* NibLoadableView+UIViewController.swift */,
 				AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */,
+				AF265ABE218BDBC600DB5F5C /* UITableView.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -140,14 +140,6 @@
 				AF265ABB218BDB1000DB5F5C /* extensions */,
 			);
 			path = core;
-			sourceTree = "<group>";
-		};
-		AF265ABD218BDBB100DB5F5C /* table view */ = {
-			isa = PBXGroup;
-			children = (
-				AF265ABE218BDBC600DB5F5C /* UITableView.swift */,
-			);
-			path = "table view";
 			sourceTree = "<group>";
 		};
 		AF265AC0218BDCF200DB5F5C /* table view section */ = {
@@ -454,7 +446,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "reusable view/Info.plist";
+				INFOPLIST_FILE = framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +473,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "reusable view/Info.plist";
+				INFOPLIST_FILE = framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
