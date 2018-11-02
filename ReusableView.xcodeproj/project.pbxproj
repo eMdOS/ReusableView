@@ -16,6 +16,8 @@
 		AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */; };
 		AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
 		AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */; };
+		AF265AC4218BDE0800DB5F5C /* TableViewSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC3218BDE0800DB5F5C /* TableViewSectionType.swift */; };
+		AF265AC6218BDE2700DB5F5C /* TableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC5218BDE2700DB5F5C /* TableViewSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+UIView.swift"; sourceTree = "<group>"; };
 		AF265ABE218BDBC600DB5F5C /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellFactory.swift; sourceTree = "<group>"; };
+		AF265AC3218BDE0800DB5F5C /* TableViewSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionType.swift; sourceTree = "<group>"; };
+		AF265AC5218BDE2700DB5F5C /* TableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */,
+				AF265AC3218BDE0800DB5F5C /* TableViewSectionType.swift */,
+				AF265AC5218BDE2700DB5F5C /* TableViewSection.swift */,
 			);
 			path = "table view section";
 			sourceTree = "<group>";
@@ -254,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */,
+				AF265AC6218BDE2700DB5F5C /* TableViewSection.swift in Sources */,
+				AF265AC4218BDE0800DB5F5C /* TableViewSectionType.swift in Sources */,
 				AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */,
 				AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */,
 				AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */,
