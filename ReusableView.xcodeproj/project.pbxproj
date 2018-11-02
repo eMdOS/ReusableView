@@ -15,6 +15,7 @@
 		AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */; };
 		AF265ABA218BDAE100DB5F5C /* NibLoadableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */; };
 		AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265ABE218BDBC600DB5F5C /* UITableView.swift */; };
+		AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		AF265AB7218BDAAF00DB5F5C /* ReusableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+UIView.swift"; sourceTree = "<group>"; };
 		AF265AB9218BDAE100DB5F5C /* NibLoadableView+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+UIView.swift"; sourceTree = "<group>"; };
 		AF265ABE218BDBC600DB5F5C /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				AF265ABC218BDB4600DB5F5C /* core */,
 				AF265ABD218BDBB100DB5F5C /* table view */,
+				AF265AC0218BDCF200DB5F5C /* table view section */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -131,6 +134,14 @@
 				AF265ABE218BDBC600DB5F5C /* UITableView.swift */,
 			);
 			path = "table view";
+			sourceTree = "<group>";
+		};
+		AF265AC0218BDCF200DB5F5C /* table view section */ = {
+			isa = PBXGroup;
+			children = (
+				AF265AC1218BDD2100DB5F5C /* TableViewCellFactory.swift */,
+			);
+			path = "table view section";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF265AC2218BDD2100DB5F5C /* TableViewCellFactory.swift in Sources */,
 				AF265AB8218BDAAF00DB5F5C /* ReusableView+UIView.swift in Sources */,
 				AF265AB6218BDA5B00DB5F5C /* NibLoadableView.swift in Sources */,
 				AF265ABF218BDBC600DB5F5C /* UITableView.swift in Sources */,
